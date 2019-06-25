@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Roll 3D</title>
+        <link rel="stylesheet" href="css/style.css"/>
+    </head>
+    <body>
+        <div id="buttons">
+            <button id="disappearFromInside">Disappear From Inside (Q)</button>
+            <button id="appearFromInside">Appear From Inside (W)</button>
+            <button id="disappearFromOutside">Disappear From Outside (E)</button>
+            <button id="appearFromOutside">Appear From Outside (R)</button>
+            <button id="hideFrame">Hide Frame (T)</button>
+            <button id="showFrame">Show Frame (Y)</button>
+            <button id="showPictures">Show Pictures (U)</button>
+            <button id="hidePictures">Hide Pictures (I)</button>
+            <button id="hideFaces">Hide Faces (O)</button>
+            <button id="showFaces">Show Faces (P)</button>
+            <button id="transformation&Rotation">Transformation & Rotation (A)</button>
+            <button id="transformation&RotationFat">Transformation & Rotation Fat (S)</button>
+            <button id="transformation&RotationReset">Transformation & Rotation Reset (D)</button>
+            <button id="transformAround">Transform Around (F)</button>
+            <button id="transformAroundReset">Transform Around Reset (G)</button>
+            <button id="changeInsideColor">Change Inside Color (H)</button>
+            <button id="insideColorNone">Inside Color None (J)</button>
+            <button id="deployTypeOne">Deploy Type One (K)</button>
+            <button id="cancelDeployTypeOne">Cancel Depoly Type One (L)</button>
+            <button id="deployTypeTwo">Deploy Type Two (Z)</button>
+            <button id="cancelDeployTypeTwo">Cancel Depoly Type Two (X)</button>
+        </div>
+
+        <ul id="images">
+            <div id="insides-box">
+                <div class="insides"></div>
+                <div class="insides"></div>
+                <div class="insides"></div>
+                <div class="insides"></div>
+                <div class="insides"></div>
+                <div class="insides"></div>
+                <div class="insides"></div>
+                <div class="insides"></div>
+                <div class="insides"></div>
+                <div class="insides"></div>
+                <div class="insides"></div>
+                <div class="insides"></div>
+                <div class="insides"></div>
+                <div class="insides"></div>
+                <div class="insides"></div>
+                <div class="insides"></div>
+                <div class="insides"></div>
+                <div class="insides"></div>
+                <div class="insides"></div>
+                <div class="insides"></div>
+                <div class="insides"></div>
+                <div class="insides"></div>
+                <div class="insides"></div>
+                <div class="insides"></div>
+                <div class="insides"></div>
+                <div class="insides"></div>
+                <div class="insides"></div>
+                <div class="insides"></div>
+                <div class="insides"></div>
+                <div class="insides"></div>
+                <div class="insides"></div>
+                <div class="insides"></div>
+                <div class="insides"></div>
+                <div class="insides"></div>
+                <div class="insides"></div>
+                <div class="insides"></div>
+                <div class="insides"></div>
+                <div class="insides"></div>
+                <div class="insides"></div>
+                <div class="insides"></div>
+                <div class="insides"></div>
+                <div class="insides"></div>
+                <div class="insides"></div>
+                <div class="insides"></div>
+                <div class="insides"></div>
+                <div class="insides"></div>
+                <div class="insides"></div>
+                <div class="insides"></div>
+                <div class="insides"></div>
+                <div class="insides"></div>
+                <div class="insides"></div>
+                <div class="insides"></div>
+                <div class="insides"></div>
+                <div class="insides"></div>
+            </div>
+
+            <div id="centerCore">
+                <div id="sixFaces">
+                    <li class="front face" id="front"><img src="images/1.jpg" width="300" height="300"/></li>
+                    <li class="back face" id="back"><img src="images/2.jpg" width="300" height="300"/></li>
+                    <li class="left face" id="left"><img src="images/3.jpg" width="300" height="300"/></li>
+                    <li class="right face" id="right"><img src="images/4.jpg" width="300" height="300"/></li>
+                    <li class="top face" id="top"><img src="images/5.jpg" width="300" height="300"/></li>
+                    <li class="bottom face" id="bottom"><img src="images/6.jpg" width="300" height="300"/></li>
+                </div>
+                
+                <div id="little-divs-box">
+                    <div id="little-divs-four-box">
+                        <div id="little-front-box">
+                            <div class="little-front little-faces">
+                                <div class="front-divs little-divs"></div>
+                                <div class="front-divs little-divs"></div>
+                                <div class="front-divs little-divs"></div>
+                                <div class="front-divs little-divs"></div>
+                                <div class="front-divs little-divs"></div>
+                                <div class="front-divs little-divs"></div>
+                                <div class="front-divs little-divs"></div>
+                                <div class="front-divs little-divs"></div>
+                                <div class="front-divs little-divs"></div>
+                            </div>
+                        </div>
+    
+                        <div id="little-back-box">
+                            <div class="little-back little-faces">
+                                <div class="back-divs little-divs"></div>
+                                <div class="back-divs little-divs"></div>
+                                <div class="back-divs little-divs"></div>
+                                <div class="back-divs little-divs"></div>
+                                <div class="back-divs little-divs"></div>
+                                <div class="back-divs little-divs"></div>
+                                <div class="back-divs little-divs"></div>
+                                <div class="back-divs little-divs"></div>
+                                <div class="back-divs little-divs"></div>
+                            </div>
+                        </div>
+        
+                        <div id="little-left-box">
+                            <div class="little-left little-faces">
+                                <div class="left-divs little-divs"></div>
+                                <div class="left-divs little-divs"></div>
+                                <div class="left-divs little-divs"></div>
+                                <div class="left-divs little-divs"></div>
+                                <div class="left-divs little-divs"></div>
+                                <div class="left-divs little-divs"></div>
+                                <div class="left-divs little-divs"></div>
+                                <div class="left-divs little-divs"></div>
+                                <div class="left-divs little-divs"></div>
+                            </div>
+                        </div>
+        
+                        <div id="little-right-box">
+                            <div class="little-right little-faces">
+                                <div class="right-divs little-divs"></div>
+                                <div class="right-divs little-divs"></div>
+                                <div class="right-divs little-divs"></div>
+                                <div class="right-divs little-divs"></div>
+                                <div class="right-divs little-divs"></div>
+                                <div class="right-divs little-divs"></div>
+                                <div class="right-divs little-divs"></div>
+                                <div class="right-divs little-divs"></div>
+                                <div class="right-divs little-divs"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="little-divs-two-box">
+                        <div id="little-top-box">
+                            <div class="little-top little-faces">
+                                <div class="top-divs little-divs"></div>
+                                <div class="top-divs little-divs"></div>
+                                <div class="top-divs little-divs"></div>
+                                <div class="top-divs little-divs"></div>
+                                <div class="top-divs little-divs"></div>
+                                <div class="top-divs little-divs"></div>
+                                <div class="top-divs little-divs"></div>
+                                <div class="top-divs little-divs"></div>
+                                <div class="top-divs little-divs"></div>
+                            </div>
+                        </div>
+    
+                        <div id="little-bottom-box">
+                            <div class="little-bottom little-faces">
+                                <div class="bottom-divs little-divs"></div>
+                                <div class="bottom-divs little-divs"></div>
+                                <div class="bottom-divs little-divs"></div>
+                                <div class="bottom-divs little-divs"></div>
+                                <div class="bottom-divs little-divs"></div>
+                                <div class="bottom-divs little-divs"></div>
+                                <div class="bottom-divs little-divs"></div>
+                                <div class="bottom-divs little-divs"></div>
+                                <div class="bottom-divs little-divs"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </ul>
+    </body>
+    
+    <script src="js/roll3d.js"></script>   
+</html>
